@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    /* background-color: pink */;
+}
+.diya{
+    width: 512px;
+    height: 512px;
+    background-color: black;
+    position: absolute;
+    z-index: 1;
+}
+.diya-img{
+    width: 309px;
+    height: 181px;
+    padding: 128px 101px 201px 101px;
+}
+.diya-flag-1{
+    width: 80px;
+    height: 30px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    top: 343px;
+    left: 216px;
+    background-color: #2137FC;
+    position: absolute;
+}
+.diya-flag-2{
+    width: 80px;
+    height: 30px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    background-color: #FFCE22;
+    position: absolute;
+    top: 373px;
+    left: 216px;
+}
+.speechify-square {
+    width: 512px;
+    height: 512px;
+    background-color: #FFCE22;
+    position: absolute;
+    z-index: 2;
+    top: 395px;
+    left: 441px;
+}
+.square-blue {
+    width: 512px;
+    height: 256px;
+    background-color: #2137FC;
+    position: absolute;
+}
+.speechify-img.square {
+    padding: 144px 55px;
+    position: absolute;
+}
+.speechify-circle{
+    background-color: #fff;
+    width: 512px;
+    height: 512px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    border-width: 2px 0px;
+    border-style: solid;
+    border-color: #2137FC;
+    position: absolute;
+    z-index: 1;
+    top: 811px;
+    left: 856px;
+}
+.circle-yellow{
+    width: 444px;
+    height: 444px;
+    border-radius: 50%;
+    background-color: #FFCE22;
+    position: absolute;
+    top: 34px;
+    left: 34px;
+}
+.circle-blue{
+    position: absolute;
+    top: 34px;
+    left: 34px;
+    z-index: 1;
+}
+.speechify-img.circle{
+    width: 358px;
+    height: 204px;
+    position: absolute;
+    z-index: 2;
+    left: 56px;
+    top: 249px;
+}
