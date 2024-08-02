@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #00A1C60D;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+.container{
+    width: 1240px;
+    margin: 0 auto;
+    padding: 0;
+}
+.head-text{
+    margin-top: 142px;
+    margin-bottom: 55px;
+    font-family: "IBM Plex Sans", sans-serif;
+    text-align: left;
+}
+.head-text h2{
+    font-weight: 600;
+    font-size: 48px;
+    letter-spacing: -0.5px;
+    margin-bottom: 20px;
+}
+.head-text span{
+    font-weight: 400;
+    font-size: 48px;
+    letter-spacing: -0.5px;
+}
+.head-text p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    /* margin-bottom: 50px; */
+}
+
+.name{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 15px;
+    background-color: #fff;
+    width: 295px;
+    height: 470px;
+    border: 1px solid #EAEDF2;
+    border-radius: 20px;
+    opacity: 0px;
+    box-shadow: 0px 0px 10px 0px #2D36400D;
+}
+.name:last-child{
+    margin-right: 0px;
+}
+.name img{
+    padding-top: 56px;
+    padding-left: 87px;
+}
+.name-text{
+    font-family: "Catamaran", sans-serif;
+    text-align: center;
+    margin-top: 36px;
+}
+.name-text h6{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32.8px;
+    letter-spacing: -0.625px;
+    color: #2D3640;
+}
+.name-text p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26.24px;
+    letter-spacing: -0.625px;
+    color: #4B4F52;
+}
+.name-tech-Vue{
+    width: 50px;
+    height: 50px;
+    background-color: #41B883;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: 123px;
+    position: relative;
+}
+.name-tech-Vue img{
+    padding: 0;
+    top: 15px;
+    left: 10px;
+    position: absolute;
+}
+.name-tech-Esi{
+display: flex;
+}
+.name-tech-Angular{
+    width: 50px;
+    height: 50px;
+    background-color: #34474F;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: 57px;
+    position: relative;
+}
+.name-tech-Angular img{
+    padding: 0;
+    top: 9px;
+    left: 10px;
+    position: absolute;
+}
+.name-tech-Flutter{
+    width: 50px;
+    height: 50px;
+    background-color: #202124;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: 15px;
+    position: relative;
+}
+.name-tech-Flutter img{
+    padding: 0;
+    top: 10px;
+    left: 11px;
+    position: absolute;
+}
+.name-tech-ReactJs{
+    width: 50px;
+    height: 50px;
+    background-color: #61DAFB;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: 15px;
+    position: relative;
+}
+.name-tech-ReactJs img{
+    padding: 0;
+    top: 8px;
+    left: 9px;
+    position: absolute;
+}
+.name-tech-Alex{
+    display: flex;
+}
+.name-tech-Java{
+    width: 50px;
+    height: 50px;
+    background-color: #D63033;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: 91px;
+    position: relative;
+}
+.name-tech-Java img{
+    padding: 0;
+    top: 7px;
+    left: 13px;
+    position: absolute;
+}
+.name-tech-ReactNative{
+    width: 50px;
+    height: 50px;
+    background-color: #0AA9D7;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: 14px;
+    position: relative;
+}
+.name-tech-ReactNative img{
+    padding: 0;
+    top: 8px;
+    left: 9px;
+    position: absolute;
+}
+.name-tech-Amarna{
+    display: flex;
+}
+.name-tech-HTML{
+    width: 50px;
+    height: 50px;
+    background-color: #E44E25;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: 91px;
+    position: relative;
+}
+.name-tech-HTML img{
+    padding: 0;
+    top: 12px;
+    left: 15px;
+    position: absolute;
+}
+.name-tech-CSS{
+    width: 50px;
+    height: 50px;
+    background-color: #1073BB;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: 14px;
+    position: relative;
+}
+.name-tech-CSS img{
+    padding: 0;
+    top: 11px;
+    left: 15px;
+    position: absolute;
+}
+
+
+
