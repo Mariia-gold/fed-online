@@ -10,7 +10,7 @@ body{
 }
 .container{
     width: 360px;
-    height: 800px;
+    /* height: 800px; */
     margin: 100px auto;
     background-color: #fff;
     border-radius: 20px;
@@ -60,11 +60,8 @@ input{
 .menu-position:hover .position-text{
     color: black;
 }
-.burger-position:hover .burger-image{
+.burger-position:hover{
     background-color: #EAE2B7;
-}
-.burger-menu{
-    display: inline-block;
 }
 .burger-menu h2{
     font-weight: 500;
@@ -81,10 +78,18 @@ input{
 }
 .burger-image{
     display: inline-block;
-    width: 316px;
+    /* width: 316px; */ /* правка: за цією шириною блок ламаєтьсяф і текст розташовується знизу, щоб він був в межах і поруж з картинкою, треба його або прибрати, або зменшити до ширини зображення */
     height: 88px;
     padding-left: 16px;
     padding-top: 18px;
+}
+.bigmac{
+    margin-top: -12px;
+}
+.burger-text{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 25px;
 }
 .burger-text h4{
     padding-left: 12px;
