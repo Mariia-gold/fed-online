@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family: "Nunito Sans", sans-serif; /* шрифт через боді не підключається */
+    font-style: italic;
+    padding-bottom: 45px;
+    position: relative; /* вказується для того щоб застилізувати пряму, що йде через весь блок */
+}
+body::after{
+    content: "";
+    display: block;
+    background-color: #F9F9F9;
+    width: 118px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 13%;
+    z-index: -1;
+}
+.container{
+    width: 82%;
+    margin: 0 auto;
+/*     display: flex;
+    justify-content: space-between; */
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 55px 0;
+}
+/* .logo{
+    width: 141px;
+    height: 38px;
+} */
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 22.8px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #000000;
+    margin-right: 35px;
+    position: relative;
+}
+nav a:last-child{
+    margin-right: 0;
+}
+nav a:hover::after{ /* крапка буде з'являтись при  наведенні на певну лінку */
+    content: "";
+    display: block;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: #F2994A;
+    margin: 0px 45%;
+}
+/* nav a.active::after,
+nav a:hover::after{
+    display: block;
+} */
+.search-block input{
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 22.8px;
+    letter-spacing: 1px;
+    color: #000000;
+    border: none;
+    padding: 0 16px;
+    text-align: right;
+}
+.search-block input:focus-visible{
+    outline: none;
+}
+.search-block button{
+    border: none;
+    background-color: #fff;
+}
+section .container{
+    display: flex;
+    margin-top: 110px;
+    margin-bottom: 50px;
+}
+.main-design{
+    width: 30%;
+}
+.main-design img{
+    width: 100%;
+}
+.main-text{
+    width: 70%;
+    margin-left: 146px;
+}
+.workspace-text{
+    border-right: 1px #333 solid;
+    padding-right: 114px;
+    margin-bottom: 32px;
+    letter-spacing: 1px;
+}
+.workspace-text h2{
+    color: #F2994A;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    padding-bottom: 10px;
+    position: relative;
+}
+.workspace-text h2::after{
+    content: "+";
+    color: #3F9AB7;
+    position: absolute;
+    right: 0;
+}
+.workspace-text h1{
+    font-size: 65px;
+    font-weight: 800;
+    line-height: 78px;
+    padding-bottom: 70px;
+    position: relative;
+}
+.workspace-text h1::after{
+    content: "";
+    display: block;
+    background-color: #F2994A;
+    width: 188px;
+    height: 6px;
+    border-radius: 4px;
+    position: absolute;
+    bottom: 0;
+}
+.workspace-desc{
+    /* width: 421px; */
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28.8px;
+    letter-spacing: 1px;
+    margin-top: 24px;
+}
+.socials{
+    display: flex;
+    justify-content: space-between;
+}
+.video{
+    display: flex;
+    align-items: center;
+}
+.video button{
+    display: flex;
+    align-items: center;
+    background-color: #3F9AB7;
+    border: none;
+    width: 85px;
+    height: 85px;
+    border-radius: 100%;
+    padding-left: 35px;
+}
+.video span{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.6px;
+    letter-spacing: 1px;
+    margin-left: 20px;
+}
+.social-icons a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 18px;
+    margin-right: -8px;
+}
+.social-icons a:hover{
+    background-color: #F2994A;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 0;
+    background-color: #3F9AB7;
+}
+.clients-img{
+    width: 55px;
+    height: 55px;
+    text-align: center;
+    position: relative;
+}
+.clients-img:nth-child(2){
+    left: -10px;
+}
+.clients-img:nth-child(3){
+    left: -20px;
+}
+.client-info strong{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32.74px;
+    color: #fff;
+    padding-left: 32px;
+}
+.client-info span{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27.28px;
+    color: #fff;
+}
+
+
