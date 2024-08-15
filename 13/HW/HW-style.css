@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    font-family: "Nunito Sans", sans-serif; /* шрифт через боді не підключається */
+    font-family: "Nunito Sans", sans-serif; /* ??????? шрифт через боді не підключається */
     font-style: italic;
     padding-bottom: 45px;
     position: relative; /* вказується для того щоб застилізувати пряму, що йде через весь блок */
@@ -170,7 +170,6 @@ section .container{
 }
 .social-icons a{
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     padding-bottom: 18px;
