@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="HW-style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="background">
+        <!-- лого, акаунт, пошук -->
+        <header>
+            <div class="container">
+                <div class="logo">
+                    <img src="img/netflix-logo.png" alt="netflix-logo">
+                    <p>Friday July 8th</p>
+                </div>
+                <div class="account">
+                    <form action="">
+                        <input type="text"> <!-- підключити пошукову іконку в css -->
+                    </form>
+                    <div class="avatar">
+                        <img src="img/avatar.jpeg" alt="avatar">
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!--     усе про фільм -->
+        <section class="film-main-info">
+            <div class="container">
+                <div class="film-gerne">
+                    <h3>Drama</h3>
+                    <h3>Thriller</h3>
+                    <h3>Supernatural</h3>
+                </div>
+                <div class="film-name">
+                    <h1>Stranger Things</h1>
+                </div>
+                <div class="film-info">
+                    <h3 class="year">2019</h3>
+                    <h3 class="director">DIRECTOR: <span>Shawn Levy</span></h3>
+                    <h3 class="season">seasons: <span>3 (5 Episodes)</span></h3>
+                </div>
+                <div class="film-desc">
+                    <p>In 1980s Indiana, a group of young friends witness supernatural forces and secret government
+                        exploits. As they search for answers, the children unravel a series of extraordinary mysteries.
+                    </p>
+                    <!-- перевірка скролу і bg image --> 
+                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum vel eius commodi nesciunt
+                        facere molestiae, beatae at labore minima? Autem enim dolore sit voluptatum. Enim cupiditate
+                        porro laborum veritatis corporis, autem eos deserunt fuga harum aliquam reiciendis eaque labore
+                        cumque dolore vero perferendis doloremque repellendus ut repudiandae incidunt odit! Aperiam
+                        possimus quibusdam perspiciatis illum architecto at pariatur cupiditate consequatur, eveniet
+                        ipsa dicta, libero, asperiores deleniti voluptate ratione quam ad fugiat doloremque. Doloribus
+                        suscipit expedita numquam quo voluptatibus debitis blanditiis sapiente magni temporibus aut?
+                        Delectus necessitatibus numquam, adipisci cupiditate perspiciatis laboriosam dolores cum
+                        voluptatem rem quisquam sint quas incidunt? Minus, laborum? Lorem ipsum dolor sit amet,
+                        consectetur adipisicing elit. Porro, cupiditate ratione totam laboriosam cumque nemo molestias
+                        deserunt repellat officia corrupti dolorem dolore exercitationem modi ut omnis aspernatur
+                        architecto, enim tempore rem quos necessitatibus id. Numquam atque eveniet quisquam dicta
+                        corrupti repellat exercitationem explicabo molestias unde cum quia doloribus commodi dolore
+                        harum autem dignissimos fugit inventore similique, accusantium quasi, mollitia animi quod
+                        architecto. Inventore eum modi, dolorem quibusdam dolor sapiente magni maxime aliquam
+                        consequatur optio magnam sunt. Ipsum dicta mollitia voluptas expedita illum pariatur laboriosam
+                        repellendus eligendi dolores modi quaerat iusto veritatis facilis iste totam eveniet eos fugiat
+                        assumenda, quidem molestiae similique tenetur vel. Cupiditate delectus perspiciatis, adipisci,
+                        nemo pariatur minima voluptatum nobis illum tempora magni dolorem itaque possimus aliquam nam.
+                        Amet, exercitationem quam omnis vero earum iste voluptate perspiciatis. Debitis eligendi
+                        voluptatem laborum, error harum alias quia eos enim cum quasi. Ratione nostrum assumenda
+                        commodi, quod quaerat, vitae itaque quasi esse facere, magnam enim sapiente odit numquam. Beatae
+                        porro, odio doloribus deserunt quasi nostrum labore hic, unde molestias in exercitationem ad
+                        atque voluptatibus consequatur explicabo omnis. Culpa perspiciatis vero in minus assumenda
+                        beatae ipsa voluptas ducimus velit, sequi facilis molestiae excepturi voluptatum asperiores
+                        laboriosam? Rem amet assumenda tenetur nostrum iure.</p> -->
+                </div>
+                <div class="film-rating">
+                    <i class="fa-solid fa-star fa-2x"></i>
+                    <i class="fa-solid fa-star fa-2x"></i>
+                    <i class="fa-solid fa-star fa-2x"></i>
+                    <i class="fa-solid fa-star fa-2x"></i>
+                    <i class="fa-solid fa-star fa-2x"></i>
+                </div>
+                <div class="film-buttons">
+                    <button class="b-1">
+                        <p>STREAM NOW</p>
+                        <i class="fa-solid fa-circle-play fa-2xl"></i>
+                    </button>
+                    <button class="b-2">
+                        <p>ALL EPISODES</p>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <!--     інші популярні фільми -->
+        <section class="other">
+            <div class="container">
+                <div class="other-popular">
+                    <h2>
+                        POPULAR THIS WEEK
+                    </h2>
+                    <button>
+                        <i class="fa-solid fa-chevron-left fa-xl"></i>
+                    </button>
+                    <button>
+                        <i class="fa-solid fa-chevron-right fa-xl"></i>
+                    </button>
+                </div>
+                <div class="other-films">
+                    <img src="img/film-1.png" alt="film">
+                    <img src="img/film-2.png" alt="film">
+                    <img src="img/film-3.png" alt="film">
+                    <img src="img/film-4.png" alt="film">
+                    <img src="img/film-5.png" alt="film">
+                </div>
+            </div>
+        </section>
+        <div class="age">
+            <!-- +бордер червоного кольору -->
+            <p>16+</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
