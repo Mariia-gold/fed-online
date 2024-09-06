@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    box-sizing: border-box;
+}
+html,body{
+    font-size: 16px;
+}
+body{
+    background-color: #F8FAF8;
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    position: relative;
+}
+body::after{
+    content: "";
+    width: 7.5rem;
+    height: 7.5rem;
+    border: 0.625rem solid #386E41;
+    position: absolute;
+    top: 31.25rem;
+    left: -3.188rem;
+}
+.container{
+    width: 83%;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2.5rem;
+    margin-bottom: 3.125rem;
+}
+.header-logo{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    line-height: 1.532rem;
+    color: #BC436A;
+}
+.header-navigation{
+    display: flex;
+    align-items: center;
+}
+.header-navigation a{
+    padding-right: 2.75rem;
+    text-decoration: none;
+    color: #776677;
+}
+.header-navigation a:hover{
+    color: #BC436A;
+}
+.header-navigation button{
+    background-color: #386E41;
+    border: none;
+    border-radius: 0.25rem;
+    color: white;
+    padding: .5rem;
+    font-size: 1rem;
+    line-height: 1.366rem;
+}
+.header-navigation button:hover{
+    background-color: #324335;
+    transition: 0.3s;
+}
+.container.section{
+    margin-bottom: 2rem;
+}
+.background{
+    width: 50.75rem;
+    height: 50.75rem;
+    border-radius: 100%;
+    background-image: url(img/background.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 200%;
+    position: absolute;
+    right: -3.75rem;
+    z-index: -1;
+}
+.main-text{
+    width: 37%;
+    padding-top: 10.3rem;
+/*     margin-right: 5.625rem; */ /* при position:absolut для background падінг не буде діяти */
+    margin-bottom: 9.375rem;
+}
+.main-text h1{
+    color: #333333;
+    font-size: 2.25rem;
+    font-weight: 800;
+    line-height: 3.074rem;
+    padding-bottom: 1.436rem;
+}
+.main-text span{
+    color: #BC436A;
+}
+.main-text p{
+    color: #7A7A7A;
+    font-size: 1.25rem;
+    line-height: 1.537rem;
+}
+.place-text{
+    display: flex;
+    color: #767676;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.place-text button{
+    border: none;
+    background-color: transparent;
+    color: #767676;
+    cursor: pointer;
+    padding-left: 0.938rem;
+}
+.search{
+    display: flex;
+    justify-content: space-around;
+    background-color: #386E41;
+    padding: 2.5rem;
+    border-radius: .5rem;
+}
+.search input{
+    width: 13.625rem;
+    background-color: transparent;
+    border: none;
+    font-size: 1.125rem;
+}
+.search input::placeholder{
+    color: white;
+    font-size: 1.125rem;
+}
+.search-country,.search-city,.search-plac{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    border-bottom: 0.5px solid white;
+}
+.chevron-btn{
+    background-color: transparent;
+    border: none;
+}
+.search-btn button{
+    background-color: #BC436A;
+    border: none;
+    border-radius: 0.25rem;
+    padding: 0.625rem 0.936rem;
+    color: white;
+    font-size: 1.125rem;
+    box-shadow: 0 0 1.25rem 0 #0000001C;
+}
+.footer{
+    text-align: center;
+    color: #767676;
+}
+.footer p{
+    padding: 0.625rem;
+}
+.footer i{
+    display: block;
+}
+
+
+
+
+@media (max-width: 1225px){
+    html,body{
+        font-size: 14px;
+    }
+    .container{
+        width: 76%;
+    }
+    .background{
+        right: -4.75rem;
+    }
+}
+@media (max-width: 1085px){
+    .background{
+        width: 43rem;
+        height: 43rem;
+    }
+    .search input{
+        width: 7rem;
+    }
+}
+@media (max-width: 900px){
+    html,body{
+        font-size: 12px;
+    }
+    .container{
+        width: 72%;
+    }
+    .background{
+        right: -7.75rem;
+        background-position: -312px -169px;
+    }
+}
+@media (max-width: 700px){
+    html,body{
+        font-size: 16px;
+    }
+    .header{
+        display: block;
+        text-align: center;
+    }
+    .header-logo{
+        padding-bottom: 1rem;
+    }
+    .header-navigation{
+        display: block;
+    }
+    .header-navigation a{
+        display: block;
+        text-align: center;
+        padding-right: 0;
+        padding-bottom: 0.625rem;
+    }
+    .header-navigation a:last-child{
+        padding-bottom: 1rem;
+    }
+    .background{
+        width: 40rem;
+        height: 40rem;
+        right: -50%;
+        background-position: -411px -192px;
+    }
+    body::after{
+        width: 5.5rem;
+        height: 5.5rem;
+        border: 0.525rem solid #386E41;
+        position: absolute;
+        top: 31.25rem;
+        left: -3.188rem;
+    }
+    .main-text {
+        width: 50%;
+        padding-top: 4.3rem;
+        margin-bottom: 5.375rem;
+    }
+    .place-text{
+        margin-bottom: 1rem;
+    }
+    .search{
+        display: block;
+        padding: 0;
+        background-color: transparent;
+    }
+    .search input{
+        background-color: transparent;
+        border: none;
+        font-size: 1.125rem;
+        padding: 1.5rem;
+    }
+    .search-country,.search-city,.search-plac{
+        border-bottom: none;
+        background-color: #386E41;
+    }
+    .search-country,.search-city,.search-place::after{
+        content: "";
+        border-bottom: 3px solid #F8FAF8;
+    }
+    .search-btn{
+        text-align: center;
+        margin-top: 1rem;
+    }
+    .chevron-btn{
+        padding-right: 1.3rem;
+    }
+    .container.section{
+        margin-bottom: 3rem;
+    }
+}
+@media (max-width: 640px){
+    .main-text{
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 4rem;
+        padding-top: 40px;
+    }
+    .background{
+        border-radius: 0;
+        width: 100%;
+        height: 100%;
+        right: 0;
+        background-position: -114px -30px;
+        opacity: 15%;
+    }
+    .container.section{
+        margin-bottom: 3rem;
+    }
+    body::after{
+        width: 5.5rem;
+        height: 5.5rem;
+        border: 0.4rem solid #386E41;
+        position: absolute;
+        top: 31.25rem;
+        left: -3.188rem;
+    }
+}
